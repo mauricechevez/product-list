@@ -5,11 +5,17 @@
 body{
     font-family: "Red Hat Text", sans-serif;
     font-size: 16px;
+    background-color:hsl(20, 50%, 98%);
 }
 
 .container{
-    border:1px solid red;
-    max-width: 1440px;
+    /* border:1px solid red; */
+    margin: 0 auto;
+    max-width: 1000px;
+    width:100%;
+}
+
+ .menu{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 300px);
